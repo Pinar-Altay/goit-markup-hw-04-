@@ -29,10 +29,11 @@ ul, ol {
     padding-left: 0;
 }
 
+/*
 button {
     cursor: pointer;
 }
-
+*/
 
 
 .container {
@@ -229,8 +230,8 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.but-ton:hover,
-.but-ton:focus {
+.button:hover,
+.button:focus {
     background-color: #404BBF;
 }
 
@@ -473,9 +474,8 @@ button {
 .fourth-text {
     position: absolute;
     top: 0;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #4d5ae5;
